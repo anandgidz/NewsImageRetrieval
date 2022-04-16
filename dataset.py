@@ -25,13 +25,15 @@ class GoodNews(torch.utils.data.Dataset):
         return len(self.img_headline_pair)
 
 
-trainset = GoodNews(split = 'train')
-image_index = 1  # Feel free to change this.
+if __name__ == "__main__":
 
-print('This dataset has {0} training images'.format(len(trainset)))
+    trainset = GoodNews(split = 'train')
+    image_index = 1  # Feel free to change this.
 
-# 2. Datasets need to implement the  __getitem__ method for this to work.
-img, headline = trainset[image_index]  # Returns image and label.
+    print('This dataset has {0} training images'.format(len(trainset)))
 
-print('Image {0} has headline {1}'.format(image_index, headline))
-img.show()
+    # 2. Datasets need to implement the  __getitem__ method for this to work.
+    img, headline = trainset[image_index]  # Returns image and label.
+
+    print('Image {0} has headline {1}'.format(image_index, headline))
+    img.show()
