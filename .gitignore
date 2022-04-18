@@ -1,3 +1,7 @@
 *.json
 resized*
 .idea
+__pycache__*
+checkpoint1
+checkpoint2
+*.pickle
