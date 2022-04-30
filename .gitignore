@@ -11,4 +11,6 @@ vsepp/coco/
 vsepp/*.tar
 vsepp/LICENSE
 vsepp/.gitignore
+vsepp/coco.zip
+vsepp/README.md
 test_images/
