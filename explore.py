@@ -12,8 +12,11 @@ print(len(data))
 img_headlines = []
 n = 0
 for k in tqdm(data):
-    print(data[k])
-    break
+    if 'main' not in data[k]['headline'] or not os.path.exists(f'./resized/{k}_{0}.jpg'):
+        continue
+    n += 1
+    # print(data[k])
+    # break
     # if 'print_headline' not in data[k]['headline']:
     #     n += 1
     #     continue

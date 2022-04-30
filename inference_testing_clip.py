@@ -13,9 +13,12 @@ image_index = 0
 img, headline, caption = trainset[image_index]
 image = img.unsqueeze(0).to(device)
 text = clip.tokenize([headline]).to(device)
+print(headline)
+print("dsadsa")
+print(text)
 
 logits_per_image, logits_per_text = model(image, text)
-print(logits_per_image)
+# print(logits_per_image)
 
 with torch.no_grad():
     image_features = model.encode_image(image)

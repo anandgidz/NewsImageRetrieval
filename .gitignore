@@ -5,3 +5,10 @@ __pycache__*
 checkpoint1
 checkpoint2
 *.pickle
+vsepp/models/
+vsepp/vocab/
+vsepp/coco/
+vsepp/*.tar
+vsepp/LICENSE
+vsepp/.gitignore
+test_images/
