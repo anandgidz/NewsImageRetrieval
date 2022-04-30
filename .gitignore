@@ -1,5 +1,5 @@
 train_set.json
-test_set.json
+val_set.json
 captioning_dataset.json
 resized*
 .idea
