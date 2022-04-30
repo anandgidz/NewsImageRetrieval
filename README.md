@@ -10,4 +10,5 @@ VSE++ pretrained models and vocab can be found at [vsepp](https://github.com/far
 
 vsepp/evaluate_VSE++_on_news_captions.py evaluates VSE++ on our test sets captions
 vsepp/evaluate_VSE++_on_news_headlines.py evaluates VSE++ on our test sets headlines
+
 Path errors may need to be resolved for the above two scripts
